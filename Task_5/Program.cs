@@ -15,7 +15,6 @@
             base.Method();
             Console.WriteLine("NewModule.Method()");
         }
-        // TODO: переопределеите метод Method()
     }
 
     class BaseModule
