@@ -14,8 +14,8 @@ namespace PersonAge
 
         static int GetPersonAge(Person person)
         {
-            if (person.Age.HasValue) return person.Age.Value;
-            return -1;
+            int age = person.Age ?? -1;
+            return age;
         }
 
         class Person
